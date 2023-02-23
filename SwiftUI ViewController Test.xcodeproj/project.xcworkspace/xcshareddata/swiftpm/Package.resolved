@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "republished",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adam-zethraeus/Republished",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ae99bfbc455d7f19e05798d0f2cf9db6e6801adc"
+      }
+    }
+  ],
+  "version" : 2
+}

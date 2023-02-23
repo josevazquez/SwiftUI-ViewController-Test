@@ -8,18 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		828FE14129A7FB5E005254E2 /* SwiftUI_ViewController_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE14029A7FB5E005254E2 /* SwiftUI_ViewController_TestApp.swift */; };
-		828FE14329A7FB5E005254E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE14229A7FB5E005254E2 /* ContentView.swift */; };
 		828FE14529A7FB5F005254E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828FE14429A7FB5F005254E2 /* Assets.xcassets */; };
 		828FE14929A7FB5F005254E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828FE14829A7FB5F005254E2 /* Preview Assets.xcassets */; };
+		828FE15529A7FB79005254E2 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE15029A7FB79005254E2 /* AppModel.swift */; };
+		828FE15629A7FB79005254E2 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE15129A7FB79005254E2 /* SessionModel.swift */; };
+		828FE15729A7FB79005254E2 /* BouncerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE15229A7FB79005254E2 /* BouncerViewController.swift */; };
+		828FE15829A7FB79005254E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE15329A7FB79005254E2 /* HomeViewController.swift */; };
+		828FE15929A7FB79005254E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE15429A7FB79005254E2 /* DetailViewController.swift */; };
+		828FE15C29A7FC1A005254E2 /* Republished in Frameworks */ = {isa = PBXBuildFile; productRef = 828FE15B29A7FC1A005254E2 /* Republished */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		828FE13D29A7FB5E005254E2 /* SwiftUI ViewController Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI ViewController Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828FE14029A7FB5E005254E2 /* SwiftUI_ViewController_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ViewController_TestApp.swift; sourceTree = "<group>"; };
-		828FE14229A7FB5E005254E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		828FE14429A7FB5F005254E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828FE14629A7FB5F005254E2 /* SwiftUI_ViewController_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_ViewController_Test.entitlements; sourceTree = "<group>"; };
 		828FE14829A7FB5F005254E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		828FE15029A7FB79005254E2 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		828FE15129A7FB79005254E2 /* SessionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		828FE15229A7FB79005254E2 /* BouncerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerViewController.swift; sourceTree = "<group>"; };
+		828FE15329A7FB79005254E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		828FE15429A7FB79005254E2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828FE15C29A7FC1A005254E2 /* Republished in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				828FE14029A7FB5E005254E2 /* SwiftUI_ViewController_TestApp.swift */,
-				828FE14229A7FB5E005254E2 /* ContentView.swift */,
+				828FE14F29A7FB79005254E2 /* DataModels */,
+				828FE15229A7FB79005254E2 /* BouncerViewController.swift */,
+				828FE15429A7FB79005254E2 /* DetailViewController.swift */,
+				828FE15329A7FB79005254E2 /* HomeViewController.swift */,
 				828FE14429A7FB5F005254E2 /* Assets.xcassets */,
 				828FE14629A7FB5F005254E2 /* SwiftUI_ViewController_Test.entitlements */,
 				828FE14729A7FB5F005254E2 /* Preview Content */,
@@ -67,6 +80,15 @@
 				828FE14829A7FB5F005254E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		828FE14F29A7FB79005254E2 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				828FE15029A7FB79005254E2 /* AppModel.swift */,
+				828FE15129A7FB79005254E2 /* SessionModel.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +107,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI ViewController Test";
+			packageProductDependencies = (
+				828FE15B29A7FC1A005254E2 /* Republished */,
+			);
 			productName = "SwiftUI ViewController Test";
 			productReference = 828FE13D29A7FB5E005254E2 /* SwiftUI ViewController Test.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +138,9 @@
 				Base,
 			);
 			mainGroup = 828FE13429A7FB5E005254E2;
+			packageReferences = (
+				828FE15A29A7FC1A005254E2 /* XCRemoteSwiftPackageReference "Republished" */,
+			);
 			productRefGroup = 828FE13E29A7FB5E005254E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828FE14329A7FB5E005254E2 /* ContentView.swift in Sources */,
+				828FE15729A7FB79005254E2 /* BouncerViewController.swift in Sources */,
+				828FE15529A7FB79005254E2 /* AppModel.swift in Sources */,
+				828FE15629A7FB79005254E2 /* SessionModel.swift in Sources */,
 				828FE14129A7FB5E005254E2 /* SwiftUI_ViewController_TestApp.swift in Sources */,
+				828FE15829A7FB79005254E2 /* HomeViewController.swift in Sources */,
+				828FE15929A7FB79005254E2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		828FE15A29A7FC1A005254E2 /* XCRemoteSwiftPackageReference "Republished" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adam-zethraeus/Republished";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		828FE15B29A7FC1A005254E2 /* Republished */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 828FE15A29A7FC1A005254E2 /* XCRemoteSwiftPackageReference "Republished" */;
+			productName = Republished;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 828FE13529A7FB5E005254E2 /* Project object */;
 }
